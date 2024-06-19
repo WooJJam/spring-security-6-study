@@ -1,13 +1,14 @@
-package com.eazybytes.springsecuritybasic;
+package com.eazybytes;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Component;
 
 @SpringBootApplication
-public class SpringsecuritybasicApplication {
+public class EasyBankBackendApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(SpringsecuritybasicApplication.class, args);
+		SpringApplication.run(EasyBankBackendApplication.class, args);
 	}
 
 }
