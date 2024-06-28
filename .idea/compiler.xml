@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="com.eazybytes.springsecuritybasic" target="17" />
+      <module name="com.eazybytes.springsecuritybasic.main" target="17" />
+      <module name="com.eazybytes.springsecuritybasic.test" target="17" />
+      <module name="com.eazybytes.springsecuritybasic4" target="17" />
+      <module name="com.eazybytes.springsecuritybasic4.main" target="17" />
+      <module name="com.eazybytes.springsecuritybasic4.test" target="17" />
+      <module name="com.eazybytes.springsecuritybasic5" target="17" />
+      <module name="com.eazybytes.springsecuritybasic5.main" target="17" />
+      <module name="com.eazybytes.springsecuritybasic5.test" target="17" />
+      <module name="springsecuritysection3.springsecuritybasic" target="17" />
+      <module name="springsecuritysection3.springsecuritybasic.main" target="17" />
+      <module name="springsecuritysection3.springsecuritybasic.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
