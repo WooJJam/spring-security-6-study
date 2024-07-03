@@ -49,11 +49,11 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/springsecuritysection6/springsecuritysection6" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/springsecuritysection6" />
         <option name="gradleJvm" value="#JAVA_HOME" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/springsecuritysection6/springsecuritysection6" />
+            <option value="$PROJECT_DIR$/springsecuritysection6" />
           </set>
         </option>
       </GradleProjectSettings>

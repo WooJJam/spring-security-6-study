@@ -8,9 +8,9 @@
       <module name="com.eazybytes.springsecuritybasic4" target="17" />
       <module name="com.eazybytes.springsecuritybasic4.main" target="17" />
       <module name="com.eazybytes.springsecuritybasic4.test" target="17" />
-      <module name="com.eazybytes.springsecuritybasic5" target="17" />
-      <module name="com.eazybytes.springsecuritybasic5.main" target="17" />
-      <module name="com.eazybytes.springsecuritybasic5.test" target="17" />
+      <module name="springsecuritybasic" target="17" />
+      <module name="springsecuritybasic.main" target="17" />
+      <module name="springsecuritybasic.test" target="17" />
       <module name="springsecuritysection3.springsecuritybasic" target="17" />
       <module name="springsecuritysection3.springsecuritybasic.main" target="17" />
       <module name="springsecuritysection3.springsecuritybasic.test" target="17" />
