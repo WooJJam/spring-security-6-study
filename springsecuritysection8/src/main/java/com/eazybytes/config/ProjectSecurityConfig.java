@@ -15,6 +15,8 @@ import org.springframework.security.web.csrf.CookieCsrfTokenRepository;
 import org.springframework.security.web.csrf.CsrfTokenRequestAttributeHandler;
 import org.springframework.web.cors.CorsConfiguration;
 
+import com.eazybytes.filter.AuthoritiesLogginAfterFilter;
+import com.eazybytes.filter.AuthoritiesLogginAtFilter;
 import com.eazybytes.filter.CsrfCookieFilter;
 import com.eazybytes.filter.RequestValidationBeforeFilter;
 
@@ -44,6 +46,8 @@ public class ProjectSecurityConfig {
 					.csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse()))
 			.addFilterAfter(new CsrfCookieFilter(), BasicAuthenticationFilter.class)
 			.addFilterBefore(new RequestValidationBeforeFilter(), BasicAuthenticationFilter.class)
+			.addFilterAfter(new AuthoritiesLogginAfterFilter(), BasicAuthenticationFilter.class)
+			.addFilterAt(new AuthoritiesLogginAtFilter(), BasicAuthenticationFilter.class)
 			//                .csrf(httpSecurityCsrfConfigurer -> httpSecurityCsrfConfigurer.disable())
 			.authorizeHttpRequests((requests) -> requests
 				// .requestMatchers("/myAccount").hasAuthority("VIEWACCOUNT")
