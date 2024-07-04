@@ -11,7 +11,7 @@ import com.eazybytes.model.Notice;
 @Repository
 public interface NoticeRepository extends CrudRepository<Notice, Long> {
 
-    @Query(value = "from Notice n where CURDATE() BETWEEN noticBegDt AND noticEndDt")
-    List<Notice> findAllActiveNotices();
+	@Query(value = "from Notice n where CURDATE() BETWEEN noticBegDt AND noticEndDt")
+	List<Notice> findAllActiveNotices();
 
 }
